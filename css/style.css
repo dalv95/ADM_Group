@@ -122,6 +122,11 @@ header ul li:hover::before {
 .grid.g_two {
   grid-template-columns: 1fr minmax(300px, auto);
 }
+
+.grid.g_two ul{
+  font-size: 130%;
+}
+
 .flex {
   display: flex;
   width: 100%;
