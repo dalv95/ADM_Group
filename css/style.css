@@ -184,7 +184,7 @@ section:nth-child(odd) {
   background-color: #1d1e22;
 }
 section#one {
-  background-image: url("https://andrejsharapov.github.io/iogo/src/header.jpg");
+  background-image: url("/img/architecture-1867187_1920.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -194,6 +194,7 @@ section#one h1 {
   opacity: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 0;
+  position: center;
 }
 section#one .title {
   min-width: 350px;
@@ -221,7 +222,7 @@ section#one::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(0deg, rgba(29,30,34,0.3), #1d1e22);
+  background-image: linear-gradient(180deg, rgba(50, 52, 56, 0.3), #27272b);
 }
 
 section#two .blocks_head{
