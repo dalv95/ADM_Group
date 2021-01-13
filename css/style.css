@@ -184,7 +184,7 @@ section:nth-child(odd) {
   background-color: #1d1e22;
 }
 section#one {
-  background-image: url("/img/imghead.jpg");
+  background-image: url("img/imghead.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
