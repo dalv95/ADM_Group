@@ -116,8 +116,7 @@ header ul li:hover::before {
   background-color: #df2359;
 }
 .grid {
-  display: grid;
-  grid-gap: 2em;
+  grid-gap: 1em;
 }
 .grid.g_two {
   grid-template-columns: 1fr minmax(300px, auto);
@@ -225,13 +224,28 @@ section#one::after {
   background-image: linear-gradient(180deg, rgba(29, 30, 34, 0.185), #1d1e22ce);
 }
 
+section#three {
+  background-image: linear-gradient(180deg, rgba(29, 30, 34, 0.664), #1d1e22ce), url('entity-1666224_1920.jpg');
+  background-position: center;
+  color: #fff;
+  text-align: center;
+
+}
+
+section#three p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 150%;
+}
+
 section#two .block_head:hover {
   transform: scale(1.1);
   background-color: #312d3c;
   color: #df2359
 }
 
-section#three li:hover {
+section#three p:hover {
   transform: translateX(5px);
   color: #df2359;
   transition: all 0.2s ease-out;
@@ -257,8 +271,8 @@ align-items: center;
 
 .responsive_2{
   max-width: 100%;
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 100%;
   border-radius: 1em;
   border: 3px solid #312d3c;
 }
