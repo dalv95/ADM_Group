@@ -91,10 +91,11 @@
       </div>
       <div class="widget">
         <div class="blur">
-        <form action="mail.php" method="POST">
-          <input type="text" name="name" placeholder="Imie:"/>
-          <input type="text" name="phone" placeholder="Numer telefonu:"/>
-          <input type="text" name="email" placeholder="Email:"/>
+        <form action="mailto:biuro-adm@interia.pl" method="POST" enctype="text/plain">
+          <input type="text" name="Name" placeholder="Imie:"/>
+          <input type="text" name="Phone" placeholder="Numer telefonu:"/>
+          <input type="text" name="Email" placeholder="Email:"/>
+          <input type="text" name="Komentarz" placeholder="Komentarz:"/>
           <button class="button" type="Submit">Skontaktować się</button>
         </form>
       </div>
